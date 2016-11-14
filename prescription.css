@@ -1,0 +1,56 @@
+@charset "utf-8";
+body h1 {
+	color: #2B3A42;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: xx-large;
+}
+body {
+	background-color: #EFEFEF;
+
+}
+.button a {
+}
+
+
+
+
+
+@media (min-width:480px){
+body form {
+	margin-left: 35%;
+	margin-top: 40px;
+	width: 200px;
+
+}
+.button {
+	background-color: #3F5765;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+
+}
+
+@media (min-width:768px){
+body form {
+	margin-left: 48%;
+}
+
+}
+
+@media (min-width:1000px){
+body form {
+	margin-left: 48%;
+}
+
+
+}
